@@ -1,0 +1,33 @@
+* {
+	color: #eee;
+}
+
+header {
+	background: #06198c;
+	padding: 15px 10px;
+	font-size: 28px;
+}
+
+nav {
+	background: #374FC7;
+	padding: 10px;
+	font-size: 26px;
+}
+
+main {
+	background: #7048E8;
+	padding: 10px;
+	font-size: 24px;
+}
+
+article	{
+	margin: 10px auto;
+	padding: 10px;
+	background: #36139b;
+}
+
+footer{
+	background: #06198c;
+	padding: 10px;
+	font-size: 26px;
+}
