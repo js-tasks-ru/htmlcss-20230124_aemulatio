@@ -1,0 +1,100 @@
+.histogram {
+	padding: 16px 24px 24px;
+	border-radius: 8px;
+	background: #FFFFFF;
+
+	font-family: 'Inter';
+	font-style: normal;
+	/* Gray 3 */
+
+	border: 1px solid var(--grey-3);
+}
+
+.histogram__header {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.histogram__title {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+
+	color: var(--black);
+
+	opacity: 0.8;
+	margin: 0;
+}
+
+.histogram__count {
+	font-weight: 400;
+
+	font-size: 20px;
+	line-height: 26px;
+
+	color: var(--black);
+	margin: 0;
+	margin-top: 8px;
+}
+
+.histogram__link {
+	color: var(--blue-2);
+	margin-top: 3px;
+	margin-bottom: 0;
+	height: fit-content;
+	cursor: pointer;
+}
+
+.histogram__body {
+	margin-top: 39px;
+	padding-left: 2px;
+	padding-right: 5px;
+	width: 100%;
+	height: 100%;
+}
+
+.histogram__chart {
+	display: flex;
+	height: 50px;
+	flex-flow: row nowrap;
+	gap: 1px;
+	align-items: flex-end;
+}
+
+.histogram__bar {
+	flex: 1 0 auto;
+	background: var(--blue);
+}
+
+.histogram__bar_70 {
+	height: 70%;
+}
+
+.histogram__bar_44 {
+	height: 44%;
+}
+
+.histogram__bar_78 {
+	height: 78%;
+}
+
+.histogram__bar_60 {
+	height: 60%;
+}
+
+.histogram__bar_22 {
+	height: 22%;
+}
+
+.histogram__bar_90 {
+	height: 90%;
+}
+
+.histogram__bar_34 {
+	height: 34%;
+}
+
+.histogram__bar_100 {
+	height: 100%;
+}
