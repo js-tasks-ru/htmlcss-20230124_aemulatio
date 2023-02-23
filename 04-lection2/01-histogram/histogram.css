@@ -1,24 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-:root {
-	--blue: #4263EB;
-	--purple: #7048E8;
-
-	--black: #212429;
-	--gray-4: #495057;
-	--gray-3: #ACB5BD;
-	--gray-2: #DDE2E5;
-	--gray-1: #F8F9FA;
-}
-
-
 .histogram {
 	padding: 16px 24px 24px;
 	border-radius: 8px;
 	background: #FFFFFF;
+
+	font-family: 'Inter';
+	font-style: normal;
 	/* Gray 3 */
 
-	border: 1px solid var(--gray-3);
+	border: 1px solid var(--grey-3);
 }
 
 .histogram__header {
@@ -28,8 +17,6 @@
 }
 
 .histogram__title {
-	font-family: 'Inter';
-	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 24px;
@@ -41,9 +28,8 @@
 }
 
 .histogram__count {
-	font-family: 'Inter';
-	font-style: normal;
 	font-weight: 400;
+
 	font-size: 20px;
 	line-height: 26px;
 
@@ -52,24 +38,16 @@
 	margin-top: 8px;
 }
 
-.histogram__button {
-	font-family: 'Inter';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 24px;
-	text-align: right;
-
-	color: var(--blue);
+.histogram__link {
+	color: var(--blue-2);
 	margin-top: 3px;
 	margin-bottom: 0;
 	height: fit-content;
-
 	cursor: pointer;
 }
 
 .histogram__body {
-	padding-top: 39px;
+	margin-top: 39px;
 	padding-left: 2px;
 	padding-right: 5px;
 	width: 100%;
@@ -87,7 +65,6 @@
 .histogram__bar {
 	flex: 1 0 auto;
 	background: var(--blue);
-	height: 100%;
 }
 
 .histogram__bar_70 {
@@ -116,4 +93,8 @@
 
 .histogram__bar_34 {
 	height: 34%;
+}
+
+.histogram__bar_100 {
+	height: 100%;
 }
